@@ -1,5 +1,7 @@
 ## ContextConfiguration
 
+Using @ContextConfiguration to re-config ApplicationContext in a runtime.
+
 _@ContextConfiguration_ defines class-level metadata that is used to determine how to load and configure an ApplicationContext for **integration tests**.
 
 The application context initializer classes implement Callback methods for initializing a ConfigurableApplicationContext. They leave entry points to configure the application 
